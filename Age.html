@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Whats your Age?</title>
+	<link rel="stylesheet" type="text/css" href="Age.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+</head>
+<header><h1>Whats your Age?</h1></header>
+<body>
+
+<div class="birthday">
+	<div class="date-container">
+		<h1>Whats your Birthday?</h1>
+		<form action="" class="inp Month">
+				<input type="text" name="month" id="month" placeholder="What month were you born?">
+			</form>
+		<form action="" class="inp">
+				<input type="text" name="day" id="day" placeholder="What day were you born?">
+			</form>
+		<form action="" class="inp">
+				<input type="text"	name="year" id="year" placeholder="What year were you born?">
+			</form>
+			<button class="birthCalc" onclick="Calculate()">Calculate</button>
+	</div>
+</div>
+
+<div class="age">
+	<div class="age-container">
+		<h1>AGE</h1>
+	<div id="result"></div>
+
+</div>
+</body>
+</html>
+<script src="Age.js"></script>

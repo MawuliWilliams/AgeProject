@@ -1,0 +1,83 @@
+*{
+font-family:"Roboto", sans-serif;
+
+}
+
+body{
+background-color:#6495ED;
+
+}
+
+header{
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+background-color: #8A2BE2;
+height: 150px;
+width: 100%;
+}
+
+header h1{
+color:#FFFACD;
+font-size: 65px;
+text-align: center;
+}
+
+.birthday{
+margin: 180px 0px 0px 280px;
+background-color: #00BFFF;
+width:60%;
+border-radius: 15px;
+height: 190px;
+}
+
+.date-container{
+text-align: center;
+
+}
+
+.date-container h1{
+color:#FFFACD;;
+}
+
+.inp input{
+width:175px;
+margin-bottom: 8px;
+}
+
+.birthCalc{
+color:black;
+background-color: #FFD700;
+text-decoration: none;
+border-style: none;
+font-size: 20px;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+
+.age{
+margin: 70px 0px 0px 280px;
+background-color: #00BFFF;
+width:60%;
+border-radius: 15px;
+height: 100px;
+}
+
+.age-container{
+text-align: center;
+
+}
+
+.age-container h1{
+color:#FFFACD;;
+}
+
+.inp input{
+width:175px;
+margin-bottom: 8px;
+}
+
